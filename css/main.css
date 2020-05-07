@@ -1,0 +1,65 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  body{
+    position: relative;
+  }
+  #container {
+      width: 350px;
+      border: solid 2px black;
+      margin: 0 auto;
+      height: 400px;
+      position: relative;
+      position: absolute;
+      top: 100px;
+      left: 300px;
+  }
+  h1 {
+      text-align: center;
+      background-color: #9bf542;
+      margin-top: 0;
+      text-transform: uppercase;
+      font-size: 20px;
+      color: white;
+      height: 30px;
+  }
+  .bottom{
+      position: absolute;
+      bottom: 0;
+      text-align: center;
+      width: 100%;
+      height: 50px;
+  }
+  #remove {
+      display: inline;
+      margin: 5px;
+  }
+  li {
+      list-style: none;
+      color: #fc7f03;
+
+  }
+  input {
+      margin: 10px;
+      width: 200px;  
+      height: 30px;
+      border-color: #9bf542;
+  }
+  #addClick{
+      border: solid 1px #9bf542;
+      color: #9bf542;
+      width: 80px;
+      height: 30px;
+  }
+  .remove{
+      background-color: #a84232;
+      color: white;
+  }
+ 
+  /* outside {
+    position:relative;
+}
+.inside {
+    position: absolute;
+    bottom: 0;
+} */
