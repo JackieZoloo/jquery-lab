@@ -2,9 +2,10 @@
 $(document).ready(function() {
     $("#addClick").click(function() {
     let newInt = $("#newInput").val();
-      $("#addHere").append("<li class='newList'><button class='remove'>X</button> " +newInt+'</li>');
+    let $appends = `<li class='newList'><button class='remove'>X</button>  ${newInt} </li>`;
+      $("#addHere").append($appends);
       $(".remove").click(function() {
-        $(".newList").fadeOut(2000);
+        $(this).parent().remove();
       });
     });
   });
